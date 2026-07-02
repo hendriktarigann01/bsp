@@ -353,6 +353,7 @@ export const CTA_CONTENT: CTAContent = {
   subheadline: "Pilih aroma aquatic signature Anda sekarang juga. Tersedia paket bundling hemat dan pendaftaran kemitraan reseller resmi.",
   cta: {
     primary: "Check Product Variant",
+    secondary: "Hubungi Kemitraan",
   },
 };
 
