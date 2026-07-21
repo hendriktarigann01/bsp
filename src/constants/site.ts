@@ -19,8 +19,8 @@ export const SITE_CONFIG = {
   /** URL canonical */
   url: "https://www.balisurfersperfume.com",
 
-  /** Path logo (Kita gunakan /bsp.png render di Navbar/Footer) */
-  logo: "/bsp.png",
+  /** Path logo (Kita gunakan /bsp.jpg render di Navbar/Footer) */
+  logo: "/bsp.jpg",
 
   /** Nomor WhatsApp (format internasional, tanpa +) */
   whatsapp: {

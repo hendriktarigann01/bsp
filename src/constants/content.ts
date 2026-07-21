@@ -45,14 +45,14 @@ export const HERO_CONTENT: HeroContent = {
       description: "Membangkitkan energi segar di pagi hari dengan perpaduan citrus jeruk tropis, mint dingin, dan wangi laut yang menenangkan pikiran."
     },
     {
-      id: "slide-surfing-club",
-      headline: "Surfing Club",
-      description: "Aroma maskulin yang tangguh dan sporty, memadukan aroma fresh citrus, rempah halus, serta base notes cedarwood kering untuk aktivitas luar ruangan ekstrem."
+      id: "slide-cliff-him",
+      headline: "Cliff Him",
+      description: "Wewangian woody mineral yang bold dan maskulin. Menghadirkan kesegaran grapefruit, cedarwood, oakmoss, dan vetiver layaknya hembusan angin tebing pantai selatan."
     },
     {
-      id: "slide-jeruk-kintamani",
-      headline: "Jeruk of Kintamani",
-      description: "Keharuman manis-segar buah jeruk Kintamani khas Bali dipadukan dengan kesegaran kelopak bunga putih feminin yang anggun. Sangat dicintai kaum wanita."
+      id: "slide-papan-selancar-her",
+      headline: "Papan Selancar Her",
+      description: "Aroma playful tropical gourmand manis-manja. Kombinasi coconut water, sweet mango, tiare flower, dan vanilla cream yang sun-soaked."
     }
   ]
 };
@@ -84,9 +84,9 @@ export const PROMO_CONTENT: PromoContent = {
     },
     {
       id:    "new-release",
-      title: "Promo Launching Batu Karas & Black",
+      title: "Promo Launching Varian Baru",
       items: [
-        "Diskon 10% untuk varian terbaru: Batu Karas & Black Edition",
+        "Diskon 10% untuk varian terbaru: Cliff (Him/Her) & Papan Selancar (Him/Her)",
         "Free ongkir ke seluruh wilayah Pulau Jawa & Bali dengan minimal transaksi Rp 200.000",
       ],
     },
@@ -106,26 +106,18 @@ export const MENU_CONTENT: MenuContent = {
         {
           id:        "blue-point",
           name:      "Blue Point",
-          price:     "Rp 199.000",
-          description: "Wewangian fresh aquatic khas hembusan laut tropis. Dengan top notes citrus segar, middle notes aroma ozonic, dan base notes musk halus yang maskulin namun disukai wanita.",
-          image:     "/bsp.jpg", // Menggunakan bsp.jpg yang ada atau render fallback
+          price:     "Rp 99.000 - Rp 229.000",
+          description: "Karakter: Fresh, breezy, energizing. Family: Aromatic Aquatic. Top: Ocean Breeze, Bergamot, Sea Salt. Middle: Sage, Aquatic Floral, Rosemary. Base: Driftwood, Amber, Musk. Longevity: 6-8 jam.",
+          image:     "/products/blue-point.webp",
           tag:       "Best Seller",
         },
         {
-          id:        "double-six",
-          name:      "Double Six",
-          price:     "Rp 199.000",
-          description: "Menghadirkan suasana santai sore hari di pantai Double Six. Perpaduan manis aroma buah tropis segar, kelembutan kelopak jasmine, dan sentuhan base amber hangat.",
-          image:     "/bsp.jpg",
-          tag:       "Terfavorit",
-        },
-        {
-          id:        "batu-karas",
-          name:      "Batu Karas",
-          price:     "Rp 199.000",
-          description: "Rilis terbaru terinspirasi dari ketenangan Batu Karas. Perpaduan aroma daun mint segar, teh hijau aromatik yang menenangkan, serta kehangatan vetiver kayu.",
-          image:     "/bsp.jpg",
-          tag:       "Terbaru",
+          id:        "kuta-7am",
+          name:      "Kuta 7 AM",
+          price:     "Rp 95.000 - Rp 219.000",
+          description: "Karakter: Clean, crisp, awakening. Family: Citrus Green Fresh. Top: Green Apple, Morning Dew, Lemon Zest. Middle: Lily of the Valley, White Tea, Bamboo. Base: Clean Musk, Blonde Woods. Longevity: 5-7 jam.",
+          image:     "/products/kuta-7am.webp",
+          tag:       "Citrus Fresh",
         }
       ],
     },
@@ -134,26 +126,20 @@ export const MENU_CONTENT: MenuContent = {
       name:  "Pria / For Him",
       items: [
         {
-          id:        "surfing-club",
-          name:      "Surfing Club",
-          price:     "Rp 199.000",
-          description: "Wewangian berkarakter citrus-woody yang maskulin dan penuh energi. Dibuat khusus bagi peselancar aktif untuk menjaga kesegaran di bawah paparan matahari seharian.",
-          image:     "/bsp.jpg",
-          tag:       "Aktivitas Outdoor",
+          id:        "cliff-him",
+          name:      "Cliff Him",
+          price:     "Rp 105.000 - Rp 239.000",
+          description: "Karakter: Bold, earthy, sophisticated. Family: Woody Mineral Fresh. Top: Grapefruit, Mineral Accords, Black Pepper. Middle: Cedarwood, Geranium, Lavender. Base: Vetiver, Oakmoss, Dark Amber. Longevity: 7-9 jam.",
+          image:     "/products/cliff-him.webp",
+          tag:       "Woody Mineral",
         },
         {
-          id:        "papan-selancar",
-          name:      "Papan Selancar",
-          price:     "Rp 199.000",
-          description: "Aroma segar laut lepas berpadu dengan mint beku, lada hitam hangat, dan sentuhan base notes cedarwood maskulin yang meninggalkan impresi karismatik.",
-          image:     "/bsp.jpg",
-        },
-        {
-          id:        "pemburu-ombak",
-          name:      "Pemburu Ombak",
-          price:     "Rp 199.000",
-          description: "Wewangian woody-amber yang intens dan berani. Perpaduan aroma eksotis kapulaga, kulit kayu manis hangat, serta manisnya vanilla dan sandalwood yang mewah.",
-          image:     "/bsp.jpg",
+          id:        "papan-selancar-him",
+          name:      "Papan Selancar Him",
+          price:     "Rp 99.000 - Rp 229.000",
+          description: "Karakter: Sporty, energetic, adventurous. Family: Aromatic Woody Aquatic. Top: Marine Accord, Cardamom, Bergamot. Middle: Salted Coconut, Salty Vetiver, Pineapple Leaf. Base: Teakwood, Tonka Bean, Dry Amber. Longevity: 6-8 jam.",
+          image:     "/products/papan-selancar-him.webp",
+          tag:       "Sporty Fresh",
         }
       ],
     },
@@ -162,26 +148,20 @@ export const MENU_CONTENT: MenuContent = {
       name:  "Wanita / For Her",
       items: [
         {
-          id:        "jeruk-kintamani",
-          name:      "Jeruk of Kintamani",
-          price:     "Rp 199.000",
-          description: "Aroma manis-segar buah jeruk Kintamani segar yang dipadukan dengan wewangian kelopak melati putih yang manis nan feminin. Sangat ceria dan segar.",
-          image:     "/bsp.jpg",
-          tag:       "Terpopuler",
+          id:        "cliff-her",
+          name:      "Cliff Her",
+          price:     "Rp 105.000 - Rp 239.000",
+          description: "Karakter: Elegant, warm, romantic. Family: Floral Fruity Sun-kissed. Top: Peach, Mandarin Orange, Wild Berries. Middle: Frangipani, Jasmine, Sunset Peony. Base: Vanilla, White Amber, Sandalwood. Longevity: 6-8 jam.",
+          image:     "/products/cliff-her.webp",
+          tag:       "Warm Floral",
         },
         {
-          id:        "blue-point-her",
-          name:      "Blue Point for Her",
-          price:     "Rp 199.000",
-          description: "Sisi feminin dari signature Blue Point. Memberikan kesegaran laut aquatic yang lebih lembut berpadu dengan wangi buah strawberry segar dan manis.",
-          image:     "/bsp.jpg",
-        },
-        {
-          id:        "dreamland-her",
-          name:      "Dreamland for Her",
-          price:     "Rp 199.000",
-          description: "Aroma fruity-soapy manis layaknya permen strawberry, semangka berair, dan kelembutan wangi floral yang memikat hati sepanjang hari.",
-          image:     "/bsp.jpg",
+          id:        "papan-selancar-her",
+          name:      "Papan Selancar Her",
+          price:     "Rp 99.000 - Rp 229.000",
+          description: "Karakter: Playful, sweet, sun-soaked. Family: Gourmand Tropical Fruity. Top: Coconut Water, Sweet Mango, Pink Grapefruit. Middle: Tiare Flower, Ylang-Ylang, Tropical Hibiscus. Base: Sunlit Vanilla, Coconut Cream, Soft Musk. Longevity: 6-8 jam.",
+          image:     "/products/papan-selancar-her.webp",
+          tag:       "Tropical Sweet",
         }
       ],
     }
