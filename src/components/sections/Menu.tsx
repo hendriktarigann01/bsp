@@ -108,7 +108,7 @@ export function Menu() {
                           {item.price}
                         </span>
                       </div>
-                      <p className="text-xs text-brand-muted leading-relaxed mb-6 flex-grow">
+                      <p className="text-xs text-brand-muted leading-relaxed mb-6 flex-grow whitespace-pre-line">
                         {item.description}
                       </p>
 
