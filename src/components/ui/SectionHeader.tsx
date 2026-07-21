@@ -29,7 +29,7 @@ export function SectionHeader({
   }[align];
 
   return (
-    <div className={cn("max-w-2xl mb-12 md:mb-16", alignClass, className)}>
+    <div className={cn("max-w-2xl mb-12", alignClass, className)}>
       {eyebrow && (
         <p
           className="text-xs font-medium tracking-[0.2em] uppercase mb-3"

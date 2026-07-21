@@ -13,10 +13,14 @@ export function Menu() {
   const { eyebrow, headline, subheadline, categories } = MENU_CONTENT;
   const [activeCategory, setActiveCategory] = useState(categories[0].id);
 
-  const currentCategory = categories.find((c) => c.id === activeCategory) || categories[0];
+  const currentCategory =
+    categories.find((c) => c.id === activeCategory) || categories[0];
 
   return (
-    <section id="menu" className="section-padding bg-brand-bg relative overflow-hidden">
+    <section
+      id="menu"
+      className="section-padding bg-brand-bg relative overflow-hidden"
+    >
       {/* Decorative gradient blur */}
       <div className="absolute top-1/2 left-0 -translate-y-1/2 w-64 h-64 bg-brand-primary/5 rounded-full blur-3xl pointer-events-none" />
 
@@ -33,7 +37,7 @@ export function Menu() {
 
         {/* Category Tabs */}
         <AnimateInView delay={0.1}>
-          <div className="flex flex-wrap justify-center gap-2 md:gap-3 mb-12 max-w-2xl mx-auto">
+          <div className="flex flex-wrap justify-center gap-2 md:gap-3 mb-6 max-w-2xl mx-auto">
             {categories.map((category) => {
               const isActive = category.id === activeCategory;
               return (
@@ -66,15 +70,12 @@ export function Menu() {
             >
               {currentCategory.items.map((item, index) => {
                 const itemWaUrl = getWhatsAppUrl(
-                  `Halo Bali Surfer's Perfume, saya ingin memesan varian parfum "${item.name}".`
+                  `Halo Bali Surfer's Perfume, saya ingin memesan varian parfum "${item.name}".`,
                 );
 
                 return (
                   <motion.div
                     key={item.id}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: index * 0.05, duration: 0.4 }}
                     className="group bg-white rounded-2xl border border-brand-border overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col h-full"
                   >
                     {/* Item Image Container */}
@@ -100,7 +101,7 @@ export function Menu() {
 
                     {/* Content */}
                     <div className="p-6 flex flex-col flex-grow">
-                      <div className="flex justify-between items-start gap-4 mb-2">
+                      <div className="flex justify-between items-start gap-4 mb-2 min-h-14">
                         <h3 className="font-display font-bold text-lg text-brand-text group-hover:text-brand-primary transition-colors">
                           {item.name}
                         </h3>
